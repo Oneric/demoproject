@@ -1,2 +1,2 @@
-/target/*
-/build/reports/tests/*
+/target/
+/build/reports/tests/
