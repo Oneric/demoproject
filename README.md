@@ -6,7 +6,7 @@
 4. Выбрать элементы clean, validate, compile, test
 5. Нажать кнопку Run Maven Build
 6. После выполнения тестов открыть терминал
-7. Ввксти команду mvn allure:report
+7. Ввести команду "mvn allure:report"
 8. Перейти в проекте в дирректорию "\target\site\allure-maven-plugin"
 9. Открыть файл index.html
 
