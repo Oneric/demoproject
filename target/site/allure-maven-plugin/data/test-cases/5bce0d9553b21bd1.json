@@ -1,0 +1,86 @@
+{
+  "uid" : "5bce0d9553b21bd1",
+  "name" : "checkCalulationWithUnlimitedDrivers()",
+  "fullName" : "tests.auto.osago.positive.OsagoPageCheckCalkPositiveTest.checkCalulationWithUnlimitedDrivers",
+  "historyId" : "317468bc27ef256c1d2c07bb9292f864",
+  "time" : {
+    "start" : 1602710928063,
+    "stop" : 1602710934177,
+    "duration" : 6114
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "clearCookiesAndLocalStorage",
+    "time" : {
+      "start" : 1602710934095,
+      "stop" : 1602710934176,
+      "duration" : 81
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "close",
+    "time" : {
+      "start" : 1602710939871,
+      "stop" : 1602710940578,
+      "duration" : 707
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "WIN-EAET0PSE3ID"
+  }, {
+    "name" : "thread",
+    "value" : "20096@WIN-EAET0PSE3ID.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.auto.osago.positive.OsagoPageCheckCalkPositiveTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.auto.osago.positive.OsagoPageCheckCalkPositiveTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkCalulationWithUnlimitedDrivers"
+  }, {
+    "name" : "suite",
+    "value" : "tests.auto.osago.positive.OsagoPageCheckCalkPositiveTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5bce0d9553b21bd1.json",
+  "parameterValues" : [ ]
+}

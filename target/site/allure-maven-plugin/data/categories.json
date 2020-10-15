@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <Заполните все поля формы, чтобы получить расчет!> but was: <Заполните все поля формы, чтобы получить расчет>",
+      "children" : [ {
+        "name" : "ceckIsFastCalcErrorMessage()",
+        "uid" : "17314e03630ee12b",
+        "parentUid" : "154ba14ba2965e2003fe580640f0a84c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602710911022,
+          "stop" : 1602710917982,
+          "duration" : 6960
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "154ba14ba2965e2003fe580640f0a84c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

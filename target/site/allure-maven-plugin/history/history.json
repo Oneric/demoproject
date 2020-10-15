@@ -1,0 +1,98 @@
+{
+  "317468bc27ef256c1d2c07bb9292f864" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5bce0d9553b21bd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602710928063,
+        "stop" : 1602710934177,
+        "duration" : 6114
+      }
+    } ]
+  },
+  "15524b606713241b218e315a52a99855" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "170084034e5b48e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602710942581,
+        "stop" : 1602710947053,
+        "duration" : 4472
+      }
+    } ]
+  },
+  "3628ee26ce563e846cedd4e86bcc3173" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a86ad9ca53f7fbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602710921188,
+        "stop" : 1602710928059,
+        "duration" : 6871
+      }
+    } ]
+  },
+  "d79b06f15cb561077a92b56943cae982" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17314e03630ee12b",
+      "status" : "failed",
+      "statusDetails" : "expected: <Заполните все поля формы, чтобы получить расчет!> but was: <Заполните все поля формы, чтобы получить расчет>",
+      "time" : {
+        "start" : 1602710911022,
+        "stop" : 1602710917982,
+        "duration" : 6960
+      }
+    } ]
+  },
+  "a0bd596f450187e6ea33a5433876299b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "488e65d7d2a16aa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602710934180,
+        "stop" : 1602710939870,
+        "duration" : 5690
+      }
+    } ]
+  }
+}

@@ -1,0 +1,51 @@
+[ {
+  "uid" : "17314e03630ee12b",
+  "name" : "ceckIsFastCalcErrorMessage()",
+  "time" : {
+    "start" : 1602710911022,
+    "stop" : 1602710917982,
+    "duration" : 6960
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "488e65d7d2a16aa5",
+  "name" : "checkCalulationAnyMoreDrivers()",
+  "time" : {
+    "start" : 1602710934180,
+    "stop" : 1602710939870,
+    "duration" : 5690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a86ad9ca53f7fbb",
+  "name" : "checkCalulation()",
+  "time" : {
+    "start" : 1602710921188,
+    "stop" : 1602710928059,
+    "duration" : 6871
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bce0d9553b21bd1",
+  "name" : "checkCalulationWithUnlimitedDrivers()",
+  "time" : {
+    "start" : 1602710928063,
+    "stop" : 1602710934177,
+    "duration" : 6114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "170084034e5b48e1",
+  "name" : "checkIsRedirectToAuth()",
+  "time" : {
+    "start" : 1602710942581,
+    "stop" : 1602710947053,
+    "duration" : 4472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,1 @@
+{"uuid":"9b133283-36c8-4cac-9a77-9b205edf5cc8","name":"OsagoPageCheckRedirectToAuthPositiveTest","children":["998352b7-ad1a-4fa6-88cc-fb0fada0e611"],"befores":[],"afters":[{"name":"close","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1602710947055,"stop":1602710947748}],"links":[],"start":1602710940581,"stop":1602710947748}

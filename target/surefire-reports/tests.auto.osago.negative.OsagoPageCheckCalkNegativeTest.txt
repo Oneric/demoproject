@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.auto.osago.negative.OsagoPageCheckCalkNegativeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.206 s <<< FAILURE! - in tests.auto.osago.negative.OsagoPageCheckCalkNegativeTest
+tests.auto.osago.negative.OsagoPageCheckCalkNegativeTest.ceckIsFastCalcErrorMessage  Time elapsed: 7.088 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Заполните все поля формы, чтобы получить расчет!> but was: <Заполните все поля формы, чтобы получить расчет>
+	at tests.auto.osago.negative.OsagoPageCheckCalkNegativeTest.ceckIsFastCalcErrorMessage(OsagoPageCheckCalkNegativeTest.java:22)
+
