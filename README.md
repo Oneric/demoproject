@@ -1,1 +1,15 @@
-# demoproject
+# Auto tests demo project
+
+1. Открыть проект с помощью IntelliJ IDEA
+2. Открыть панель Maven 
+3. Открыть пункт demoproject/Lyfecycle
+4. Выбрать элементы clean, validate, compile, test
+5. Нажать кнопку Run Maven Build
+6. После выполнения тестов открыть терминал
+7. Ввксти команду mvn allure:report
+8. Перейти в проекте в дирректорию "\target\site\allure-maven-plugin"
+9. Открыть файл index.html
+
+**Примечание:**
+    Файл очета может не открыться в браузерах хром и мозилла в Microsoft Edge файл открывается корректно. 
+
