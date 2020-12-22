@@ -1,8 +1,5 @@
-G:\ideaProjects\demoproject\src\main\java\pages\base\BasePage.java
-G:\ideaProjects\demoproject\src\main\java\pages\health\telemedicine\TelemedPromocode.java
-G:\ideaProjects\demoproject\src\main\java\pages\auto\osago\OsagoPage.java
-G:\ideaProjects\demoproject\src\main\java\common\CommonActions.java
-G:\ideaProjects\demoproject\src\main\java\common\Config.java
-G:\ideaProjects\demoproject\src\main\java\constants\Constant.java
-G:\ideaProjects\demoproject\src\main\java\pages\health\telemedicine\TelemedCalc.java
-G:\ideaProjects\demoproject\src\main\java\pages\health\base.java
+D:\SoftwareTesting\AutoTest\Java\Projects\demoproject\src\main\java\pages\auto\osago\OsagoPage.java
+D:\SoftwareTesting\AutoTest\Java\Projects\demoproject\src\main\java\pages\base\BasePage.java
+D:\SoftwareTesting\AutoTest\Java\Projects\demoproject\src\main\java\common\CommonActions.java
+D:\SoftwareTesting\AutoTest\Java\Projects\demoproject\src\main\java\constants\Constant.java
+D:\SoftwareTesting\AutoTest\Java\Projects\demoproject\src\main\java\common\Config.java

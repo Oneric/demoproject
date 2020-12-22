@@ -3,61 +3,61 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "ceckIsFastCalcErrorMessage()",
-    "uid" : "17314e03630ee12b",
+    "uid" : "5c23aee04632a1b9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1602710911022,
-      "stop" : 1602710917982,
-      "duration" : 6960
+      "start" : 1608648118184,
+      "stop" : 1608648125059,
+      "duration" : 6875
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "checkCalulation()",
-    "uid" : "9a86ad9ca53f7fbb",
+    "uid" : "129e55a78330b851",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602710921188,
-      "stop" : 1602710928059,
-      "duration" : 6871
+      "start" : 1608648127104,
+      "stop" : 1608648133838,
+      "duration" : 6734
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "checkCalulationWithUnlimitedDrivers()",
-    "uid" : "5bce0d9553b21bd1",
+    "uid" : "3f0481d7ee61aa2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602710928063,
-      "stop" : 1602710934177,
-      "duration" : 6114
+      "start" : 1608648133842,
+      "stop" : 1608648139136,
+      "duration" : 5294
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "checkCalulationAnyMoreDrivers()",
-    "uid" : "488e65d7d2a16aa5",
+    "uid" : "ce9514b1e6351019",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602710934180,
-      "stop" : 1602710939870,
-      "duration" : 5690
+      "start" : 1608648139139,
+      "stop" : 1608648144076,
+      "duration" : 4937
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "checkIsRedirectToAuth()",
-    "uid" : "170084034e5b48e1",
+    "uid" : "3aeb3e000eb423f0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1602710942581,
-      "stop" : 1602710947053,
-      "duration" : 4472
+      "start" : 1608648145940,
+      "stop" : 1608648149186,
+      "duration" : 3246
     },
     "flaky" : false,
     "parameters" : [ ]

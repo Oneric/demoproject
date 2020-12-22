@@ -1,7 +1,5 @@
 tests\base\Listener.class
-tests\health\qwe.class
 tests\auto\osago\positive\OsagoPageCheckRedirectToAuthPositiveTest.class
 tests\auto\osago\negative\OsagoPageCheckCalkNegativeTest.class
 tests\auto\osago\positive\OsagoPageCheckCalkPositiveTest.class
 tests\base\BaseTest.class
-tests\auto\base.class

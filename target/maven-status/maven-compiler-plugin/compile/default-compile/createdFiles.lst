@@ -1,11 +1,8 @@
-pages\auto\osago\OsagoPage.class
-pages\health\base.class
-pages\base\BasePage.class
-common\Config.class
-constants\Constant$TimeoutVariables.class
-pages\health\telemedicine\TelemedCalc.class
 constants\Constant$Urls.class
 constants\Constant.class
-pages\health\telemedicine\TelemedPromocode.class
+pages\auto\osago\OsagoPage.class
+pages\base\BasePage.class
 common\CommonActions.class
+common\Config.class
 constants\Constant$OsagoPrecalc.class
+constants\Constant$TimeoutVariables.class
