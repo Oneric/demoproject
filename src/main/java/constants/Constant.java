@@ -6,11 +6,11 @@ public class Constant {
         public static final int EXPLICIT_WAIT = 10;
     }
     public static class Urls {
-        public static final String MAIN_PAGE_URL = "https://shop.vsk.ru/";
+        public static final String MAIN_PAGE_URL = "https://stage1.shop.vsk.ru/";
     }
     public static class OsagoPrecalc {
         public static final String ERROR_MESSAGE = "Заполните все поля формы, чтобы получить расчет!";
-        public static final String RESULT_TITLE ="Стоимость вашего полиса:";
+        public static final String RESULT_TITLE ="Предварительная стоимость Вашего полиса:";
         public static final String RESULT_DESCR ="Предварительная стоимость полиса рассчитана для наиболее часто встречающихся параметров полисов ОСАГО: для личного легкового автомобиля сроком на 1 год.\n" +
                 "Авторизуйтесь для точного расчёта, а также расчёта для других параметров.";
         public static final String CITY = "Томск";

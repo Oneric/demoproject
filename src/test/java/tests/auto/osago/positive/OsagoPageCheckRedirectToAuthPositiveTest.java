@@ -11,6 +11,8 @@ public class OsagoPageCheckRedirectToAuthPositiveTest extends BaseTest {
     @Test
     public void checkIsRedirectToAuth() {
         basePage.goToUrl(MAIN_PAGE_URL);
+        basePage.isConfidentialityAlertPresent();
+        basePage.selectCloseConfidentialityAlert();
         basePage.selectLinkToOsagoPage();
         osagoPage.selectCalculateAndBuyPolicy();
         basePage.isAuthWidgetPresent();

@@ -12,6 +12,7 @@ public class OsagoPageCheckCalkPositiveTest extends BaseTest {
     @Test
     public void checkCalulation() {
         basePage.goToUrl(MAIN_PAGE_URL);
+        basePage.isConfidentialityAlertPresent();
         basePage.selectCloseConfidentialityAlert();
         basePage.selectLinkToOsagoPage();
         osagoPage.enterCity(CITY);
@@ -36,6 +37,7 @@ public class OsagoPageCheckCalkPositiveTest extends BaseTest {
     @Test
     public void checkCalulationWithUnlimitedDrivers() {
         basePage.goToUrl(MAIN_PAGE_URL);
+        basePage.isConfidentialityAlertPresent();
         basePage.selectCloseConfidentialityAlert();
         basePage.selectLinkToOsagoPage();
         osagoPage.enterCity(CITY);
@@ -57,6 +59,7 @@ public class OsagoPageCheckCalkPositiveTest extends BaseTest {
     @Test
     public void checkCalulationAnyMoreDrivers() {
         basePage.goToUrl(MAIN_PAGE_URL);
+        basePage.isConfidentialityAlertPresent();
         basePage.selectCloseConfidentialityAlert();
         basePage.selectLinkToOsagoPage();
         osagoPage.enterCity(CITY);

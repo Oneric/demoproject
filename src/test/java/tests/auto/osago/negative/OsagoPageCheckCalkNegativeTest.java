@@ -12,9 +12,9 @@ public class OsagoPageCheckCalkNegativeTest extends BaseTest {
     @Test
     public void ceckIsFastCalcErrorMessage() {
         basePage.goToUrl(MAIN_PAGE_URL);
-        basePage.selectLinkToOsagoPage();
         basePage.isConfidentialityAlertPresent();
         basePage.selectCloseConfidentialityAlert();
+        basePage.selectLinkToOsagoPage();
         osagoPage.enterCity(CITY);
         osagoPage.waitForListLoad();
         osagoPage.selectOptionIndex(2);
