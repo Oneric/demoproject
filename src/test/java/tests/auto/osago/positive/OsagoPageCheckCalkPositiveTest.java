@@ -15,6 +15,7 @@ public class OsagoPageCheckCalkPositiveTest extends BaseTest {
         basePage.isConfidentialityAlertPresent();
         basePage.selectCloseConfidentialityAlert();
         basePage.selectLinkToOsagoPage();
+        osagoPage.isCalcFormPresent();
         osagoPage.enterCity(CITY);
         osagoPage.waitForListLoad();
         osagoPage.selectOptionIndex(2);
@@ -40,6 +41,7 @@ public class OsagoPageCheckCalkPositiveTest extends BaseTest {
         basePage.isConfidentialityAlertPresent();
         basePage.selectCloseConfidentialityAlert();
         basePage.selectLinkToOsagoPage();
+        osagoPage.isCalcFormPresent();
         osagoPage.enterCity(CITY);
         osagoPage.waitForListLoad();
         osagoPage.selectOptionIndex(2);
@@ -62,6 +64,7 @@ public class OsagoPageCheckCalkPositiveTest extends BaseTest {
         basePage.isConfidentialityAlertPresent();
         basePage.selectCloseConfidentialityAlert();
         basePage.selectLinkToOsagoPage();
+        osagoPage.isCalcFormPresent();
         osagoPage.enterCity(CITY);
         osagoPage.waitForListLoad();
         osagoPage.selectOptionIndex(2);

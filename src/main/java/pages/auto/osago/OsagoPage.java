@@ -14,6 +14,7 @@ public class OsagoPage extends BasePage {
     private final By calculationFormError = By.xpath("//p[@class='oe__error']");
     private final By cityInputCombobox = By.xpath("//div[contains(text(), 'Город / населённый пункт')]/..//input");
     private final By spinnerLoader = By.xpath("//div[contains(@class, 'ng-spinner-loader')]");
+    private final By oeTitle = By.xpath("//p[contains(@class, 'oe__title')]");
     private final By cityDropDownPanel = By.xpath("//div[contains(@class, 'ng-dropdown-panel-items')]/div/div[@role='option']");
     private final By birthDateInput = By.xpath("//datepicker[@formcontrolname='birthDate']//input");
     private final By birthDateDatepickerToggleButton = By.xpath("//mat-datepicker-toggle/button");
@@ -69,6 +70,13 @@ public class OsagoPage extends BasePage {
     public void isAuthInResultBlockPresent() {
         WebElement authForm = driver.findElement(calculationResultAuthorization);
         waitElementIsVisible(authForm);
+    }
+    /**
+     * Calculator form present
+     */
+    public void isCalcFormPresent() {
+        WebElement calcForm = driver.findElement(oeTitle);
+        waitElementIsVisible(calcForm);
     }
     /**
      * Calculator Error Message is present and equals expected
