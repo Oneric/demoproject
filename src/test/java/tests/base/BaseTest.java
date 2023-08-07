@@ -21,7 +21,7 @@ import java.util.Objects;
 import static common.Config.*;
 
 @ExtendWith(Listener.class)
-//@Execution(ExecutionMode.CONCURRENT)
+@Execution(ExecutionMode.CONCURRENT)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class BaseTest {
     protected WebDriver driver = CommonActions.createDriver();
@@ -34,13 +34,15 @@ public class BaseTest {
         LOGGER.info("Start clear reports dir: build/reports/test ... ");
         File allureResults = new File("allure-results");
         if(allureResults.isDirectory()){
-            for (File item : Objects.requireNonNull(allureResults.listFiles()))
+            for (File item : Objects.requireNonNull(allureResults.listFiles())) {
                 item.delete();
+            }
         }
         if(CLEAR_REPORTS_DIR){
             File allureScreenshots = new File("build/reports/tests");
-            for (File item : Objects.requireNonNull(allureScreenshots.listFiles()))
+            for (File item : Objects.requireNonNull(allureScreenshots.listFiles())) {
                 item.delete();
+            }
         }
     }
 

@@ -1,5 +1,0 @@
-tests\base\Listener.class
-tests\auto\osago\positive\OsagoPageCheckRedirectToAuthPositiveTest.class
-tests\auto\osago\negative\OsagoPageCheckCalkNegativeTest.class
-tests\auto\osago\positive\OsagoPageCheckCalkPositiveTest.class
-tests\base\BaseTest.class

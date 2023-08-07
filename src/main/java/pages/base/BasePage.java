@@ -4,6 +4,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 import static constants.Constant.TimeoutVariables.EXPLICIT_WAIT;
@@ -38,21 +39,21 @@ public class BasePage {
      * Wait for visibility of element in DOM model
      **/
     public WebElement waitElementIsVisible(WebElement element) {
-        new WebDriverWait(driver, EXPLICIT_WAIT).until(ExpectedConditions.visibilityOf(element));
+        new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.visibilityOf(element));
         return element;
     }
     /**
      * Wait for invisibility of element in DOM model
      **/
     public WebElement waitElementIsInvisiblity(WebElement element) {
-        new WebDriverWait(driver, EXPLICIT_WAIT).until(ExpectedConditions.invisibilityOf(element));
+        new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.invisibilityOf(element));
         return element;
     }
     /**
      * Wait for clickable of element in DOM model
      **/
     public WebElement waitElementIsClickable(WebElement element) {
-        new WebDriverWait(driver, EXPLICIT_WAIT).until(ExpectedConditions.elementToBeClickable(element));
+        new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.elementToBeClickable(element));
         return element;
     }
     /**

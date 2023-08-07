@@ -1,5 +1,7 @@
 package tests.auto.osago.positive;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.Test;
 
 import tests.base.BaseTest;
@@ -10,6 +12,8 @@ import static constants.Constant.Urls.MAIN_PAGE_URL;
 public class OsagoPageCheckCalkPositiveTest extends BaseTest {
 
     @Test
+    @Story("checkCalulation")
+    @Description("checkCalulation")
     public void checkCalulation() {
         basePage.goToUrl(MAIN_PAGE_URL);
         basePage.isConfidentialityAlertPresent();
@@ -36,6 +40,8 @@ public class OsagoPageCheckCalkPositiveTest extends BaseTest {
     }
 
     @Test
+    @Story("checkCalulationWithUnlimitedDrivers")
+    @Description("checkCalulationWithUnlimitedDrivers")
     public void checkCalulationWithUnlimitedDrivers() {
         basePage.goToUrl(MAIN_PAGE_URL);
         basePage.isConfidentialityAlertPresent();
@@ -59,6 +65,8 @@ public class OsagoPageCheckCalkPositiveTest extends BaseTest {
     }
 
     @Test
+    @Story("checkCalulationAnyMoreDrivers")
+    @Description("checkCalulationAnyMoreDrivers")
     public void checkCalulationAnyMoreDrivers() {
         basePage.goToUrl(MAIN_PAGE_URL);
         basePage.isConfidentialityAlertPresent();

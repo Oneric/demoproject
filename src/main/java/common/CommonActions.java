@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.sql.Time;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import static common.Config.BROWSER_AND_PLATFORM;
@@ -31,7 +32,7 @@ public class CommonActions {
                 Assertions.fail("INCORRECT BROWSER NAME " + BROWSER_AND_PLATFORM);
         }
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLICIT_WAIT));
         return driver;
     }
 }

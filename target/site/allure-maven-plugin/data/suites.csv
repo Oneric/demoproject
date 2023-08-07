@@ -1,6 +1,0 @@
-"Status","Name","Duration in ms","Description"
-"passed","tests.auto.osago.negative.OsagoPageCheckCalkNegativeTest.ceckIsFastCalcErrorMessage","6875",""
-"passed","tests.auto.osago.positive.OsagoPageCheckCalkPositiveTest.checkCalulation","6734",""
-"passed","tests.auto.osago.positive.OsagoPageCheckCalkPositiveTest.checkCalulationWithUnlimitedDrivers","5294",""
-"passed","tests.auto.osago.positive.OsagoPageCheckCalkPositiveTest.checkCalulationAnyMoreDrivers","4937",""
-"passed","tests.auto.osago.positive.OsagoPageCheckRedirectToAuthPositiveTest.checkIsRedirectToAuth","3246",""
